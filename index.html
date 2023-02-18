@@ -1,331 +1,254 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" class="wf-abel-n4-active wf-asul-n4-active wf-droidsansmono-n4-active wf-active">
-<meta http-equiv="Content-Type" content="text/html;charset=GBK" />
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Fanchao's Homepage</title>
-    <!--<link rel="stylesheet" href="css.css">
-    <link rel="stylesheet" href="font-awesome.min.css">
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="default.css">-->
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <!-- Javascript -->
-    <!--<script src="jquery.min.js"></script>
-    <script src="bootstrap.min.js"></script>-->
-    <style type="text/css">
-                <!--
-                body {
-                    font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
-                    background: #42413C;
-                    margin: 0;
-                    padding: 0;
-                    color: #000;
-                }
+    <!--Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Fanchao Zhong (钟凡超)">
+    <title>Fanchao Zhong&#39;s homepage</title>
 
-                    body p {
-                    }
-                /* ~~ Element/tag selectors ~~ */
-                ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
-                    padding: 0;
-                    margin: 0;
-                }
+    <link rel="icon" href="/img/favicon.png">
 
-                h1, h2, h3, h4, h5, h6, p {
-                    margin-top: 0; /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
-                    padding-right: 15px;
-                    padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
-                }
 
-                a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
-                    border: none;
-                }
-                /* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
-                a:link {
-                    color: rgba(0,0,0,1); /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
-                }
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
 
-                a:visited {
-                    color: rgba(0,0,0,1);
-                }
 
-                a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
-                    text-decoration: none;
-                    text-align: left;
-                    color: rgba(0,0,0,1);
-                    font-family: Arial, Helvetica, sans-serif;
-                    font-size: 100%;
-                }
-                /* ~~ this fixed width container surrounds all other elements ~~ */
-                .container {
-                    width: 960px;
-                    background: #FFF;
-                    margin-top: 0;
-                    margin-right: auto;
-                    margin-left: auto;
-                    margin-bottom: 0; /* the auto value on the sides, coupled with the width, centers the layout */
-                    font-family: Verdana, Arial, Helvetica, sans-serif;
-                }
-                /* ~~ This is the layout information. ~~ 1) Padding is only placed on the top and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
-        */
-                .content {
-                    padding: 10px 0;
-                }
-                /* ~~ miscellaneous float/clear classes ~~ */
-                .fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
-                    float: right;
-                    margin-left: 8px;
-                }
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css">
 
-                .fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
-                    float: left;
-                    margin-right: 8px;
-                }
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&amp;display=swap">
 
-                .clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the overflow:hidden on the .container is removed */
-                    clear: both;
-                    height: 0;
-                    font-size: 1px;
-                    line-height: 0px;
-                }
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital@0;1&amp;display=swap">
 
-                .auto-style3 {
-                    text-align: left;
-                    width: auto;
-                    background-color: #CBCBCB;
-                    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-                    font-style: normal;
-                    font-weight: 400;
-                }
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&amp;family=Libre+Franklin:ital@0;1&amp;display=swap">
 
-                .auto-style6 {
-                    vertical-align: middle;
-                }
+    <!--
+    <link rel="stylesheet" href="/css/style.css">
+     -->
 
-                .auto-style7 {
-                    color: #42413C;
-                    text-decoration: underline;
-                }
-
-                .auto-style8 {
-                    font-family: Arial, Helvetica, sans-serif;
-                    background-color: #FFFFFF;
-                    color: rgba(0,0,0,1);
-                }
-
-                .auto-style9 {
-                    font-family: Arial, Helvetica, sans-serif;
-                    font-size: medium;
-                    color: #800000;
-                }
-
-                .auto-style10 {
-                    text-align: center;
-                    font-family: Arial, Helvetica, sans-serif;
-                }
-
-                .auto-style11 {
-                    color: #808080;
-                }
-
-                .auto-style12 {
-                    margin-top: 0px;
-                }
-
-                .auto-style13 {
-                    text-align: left;
-                    font-family: Arial, Helvetica, sans-serif;
-                }
-
-                .auto-style14 {
-                    vertical-align: top;
-                    font-family: Arial, Helvetica, sans-serif;
-                }
-
-                .auto-style15 {
-                    text-align: center;
-                }
-
-                .auto-style16 {
-                    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-                }
-
-                a:hover {
-                    color: #6376E6;
-                }
-                -->
-    </style>
+    <meta name="generator" content="Hexo 5.0.0">
 </head>
-
 <body>
-    <div class="container">
-        <div>
-            <br><table style="width: 90%; text-align: left; margin-left: auto; margin-right: auto;" border="0" cellspacing="0" align="center" cellpadding="0">
-                <tbody>
-                    <tr>
+    <div id="container-fluid">
+        <div class="row">
+            <div class="col-md-9 offset-md-2">
+                <div class="row">
+                    <div class="col-md">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <a class="navbar-brand" herf="/ ">Fanchao Zhong&#39;s homepage</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
 
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
 
-                        <td valign="baseline" style="vertical-align: middle;">
-                            <h1 style="text-align: left;" class="auto-style16"><small>Fanchao Zhong 钟凡超</small></h1>
-                            <div style="text-align: left;" class="auto-style8">
-                                Ph.D candidate<br>
-                                Shandong University <br>
-                                <span style="font-weight: normal;">Email: fanchaoz98@gmail.com</span>
-                            </div>
-                        </td>
-                        <td valign="bottom" style="text-align: left; width: 148px;"><img src="fc.jpg" width="141" height="189" alt=""><br><br></td>
-                    </tr>
-                </tbody>
-            </table>
-                <h3 class="auto-style3"><strong style="font-family: Cambria, &#39;Hoefler Text&#39;, &#39;Liberation Serif&#39;, Times, &#39;Times New Roman&#39;, serif"><span style="">Bio </span></strong></h3>
-                <tbody>
-                    <tr>
-                        <td>
-                            <p style="text-align: justify;" class="auto-style8">
-                                
-                                Fanchao Zhong is currently a Ph.D candidate at the <a href="http://irc.cs.sdu.edu.cn/">Interdisciplinary Research Center</a> of <a href="https://www.sdu.edu.cn/">Shandong University</a>, under the supervision of Prof. <a href="https://haisenzhao.github.io/">Haisen Zhao</a> and <a href="http://irc.cs.sdu.edu.cn/~lulin/index.html">Prof. Lin Lu</a>.
-                                Before that, he received Bachelor’s degree in 2021 from the <a href="https://www.cs.sdu.edu.cn/">School of Computer Science and Technology, Shandong University</a>, under the supervision of Prof. Lin Lu.
-                                <br><br>
-                                His research interest lie in computer graphics, focusing on geometric computation and its application for digital fabrication, including additive manufacturing and subtractive manufacturing.
+                                    <li class="nav-item">
+                                        <a href="/" class="nav-link">Home</a>
+                                    </li>
 
-                            <p style="text-align: justify;" class="auto-style8">
-                            </p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+                                    <li class="nav-item">
+                                        <a href="/#Publications" class="nav-link">Projects</a>
+                                    </li>
 
-
-
-
-            <h3 class="auto-style3"><strong style="font-family: Cambria, &#39;Hoefler Text&#39;, &#39;Liberation Serif&#39;, Times, &#39;Times New Roman&#39;, serif"><span style="">Publications </span></strong></h3>
-
-            <table style="width: 95%; height: 153px; text-align: left; margin-left: auto; margin-right: auto;" border="0" cellpadding="2" cellspacing="2">
-                <tbody>
-
-                    <!--acap-->
-                    </tr>
-                    <tr>
-                        <td colspan="2" style="text-align: center; vertical-align: middle;"><hr noshade="noshade"></td>
-                    </tr>
-                    <tr>
-                        <td style="text-align: center; vertical-align: middle;">
-                            <img alt="acap teaser.png" src="acap teaser.png" height="" width="400"><br>
-                        </td>
-                        <td style="text-align: justify; vertical-align: top;" class="auto-style6">
-                            <div style="color:SlateBlue;">
-                                <b>As-continuous-as-possible Extrusion-based Fabrication of Surface Models</b>
-                                <span style="color: rgba(0,0,0,1)">[<a href="ACAP page/acap.html">Project Page</a>]</span></span><span style="color: rgb(204, 51, 204);">
+                                </ul>
                             </div>
 
-                            <a href="" target="_blank"><b>Fanchao Zhong</b></a>,
-                            <sup></sup>
-                            Yonglai Xu,
-                            <sup></sup>
-                            <a href="https://haisenzhao.github.io/" target="_blank">Haisen Zhao*</a>,
-                            <sup></sup>
-                            <a href="http://irc.cs.sdu.edu.cn/~lulin" target="_blank">Lin Lu*</a>
-                            <sup></sup>
-                            <br>
-                            </span>
-                            ACM Transactions on Graphics (TOG), 2022<br>
-                            <br>
-                            </span>
+                        </nav><div>
+                        </div>
+                        <br> <br>
+                        <div class="row">
+                            <div class="col-md-3 ">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-6 offset-md-3">
+                                            <img class="img-fluid img-thumbnail rounded-circle" src="fc.jpg" alt="avatar">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-10 offset-md-1">
+                                            <h4 class="text-center">Fanchao Zhong </br>(钟凡超) </h4>
+                                            <p class="text-center">Ph.D candidate</br> Shandong University</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-10 offset-md-1">
+                                            <ul class="list-unstyled">
+
+
+
+                                                <li class="text-center">
+                                                    Email: fanchaoz98@gmail.com
+                                                </li>
+
+
+
+
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <section id="main">
+
+                                    <div class="row mt-0 md-3">
+                                        <div class="col-md-12 ">
+                                            <p><h2 id="Biography"><a href="#Biography" class="headerlink" title="Biography"></a>Biography</h2><p>
+                                                Fanchao Zhong is currently a Ph.D candidate at the <a href="http://irc.cs.sdu.edu.cn/">Interdisciplinary Research Center</a> of <a href="https://www.sdu.edu.cn/">Shandong University</a>, under the supervision of Prof. <a href="https://haisenzhao.github.io/">Haisen Zhao</a> and <a href="http://irc.cs.sdu.edu.cn/~lulin/index.html">Prof. Lin Lu</a>.
+                                                Before that, he received Bachelor’s degree in 2021 from the <a href="https://www.cs.sdu.edu.cn/">School of Computer Science and Technology, Shandong University</a>, under the supervision of Prof. Lin Lu.
+                                                <br><br>
+                                                His research interest lie in computer graphics, focusing on geometric computation and its application for digital fabrication, including additive manufacturing and subtractive manufacturing.
+                                            </p>
+
+                                        </div>
+                                    </div>
+
+
+                                    
+
+                                    <div class="row mt-0 md-3">
+                                        <div class="col-md-12">
+                                            <p><h2 id="Publications"><a href="#Publications" class="headerlink" title="Publications"></a>Publications</h2></p>
+
+                                            <div class="card mb-0 border-top-0 border-right-0 border-left-0 pb-0 rounded-0">
+                                                <div class="row no-gutters  ">
+                                                    <div class="col-md-6">
+                                                        <img src="acap teaser.png" class="card-img" alt="...">
+                                                    </div>
+                                                    <div class="col-md-6 ">
+                                                        <div class="card-body border-0  my-0  py-0">
+                                                            <h5 class="card-title mt-0">
+                                                                As-continuous-as-possible Extrusion-based Fabrication of Surface Models
+
+                                                            </h5>
+
+                                                            <a href="" target="_blank"><b>Fanchao Zhong</b></a>,
+                                                            <sup></sup>
+                                                            Yonglai Xu,
+                                                            <sup></sup>
+                                                            <a href="https://haisenzhao.github.io/" target="_blank">Haisen Zhao*</a>,
+                                                            <sup></sup>
+                                                            <a href="http://irc.cs.sdu.edu.cn/~lulin" target="_blank">Lin Lu*</a>
+
+                                                            </br>ACM Transactions on Graphics (TOG), 2022</br>
+                                                            <a target="_blank" rel="noopener" href="ACAP page/acap.html" class="card-link"><i class="" aria-hidden="true"></i> [Project Page]</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+
+
+                                            <div class="card mb-0 border-top-0 border-right-0 border-left-0 pb-4 rounded-0">
+                                                <div class="row no-gutters  ">
+                                                    <div class="col-md-6">
+                                                        </br>
+                                                        <img src="loft teaser.png" class="card-img" alt="...">
+                                                    </div>
+                                                    <div class="col-md-6 ">
+                                                        <div class="card-body border-0  my-0  py-2">
+                                                            <h5 class="card-title mt-0">
+                                                                </br>
+                                                                Two-Scale Lofted Surfaces Modeling for Ceramic 3D Printing
+
+                                                            </h5>
+
+                                                            Yu Zhou,
+                                                            <sup></sup>
+                                                            Wenqiang Liu,
+                                                            <sup></sup>
+                                                            <a href="" target="_blank"><b>Fanchao Zhong</b></a>,
+                                                            <sup></sup>
+                                                            <a href="https://www.researchgate.net/profile/Xin-Yan-13" target="_blank">Xin Yan</a>,
+                                                            <sup></sup>
+                                                            <a href="http://irc.cs.sdu.edu.cn/~lulin/index.html" target="_blank">Lin Lu*</a>
+                                                            <sup></sup>
+
+                                                            </br> Journal of Computer-Aided Design & Computer Graphics (in Chinese), 2021
+                                                            <span style="color: rgba(0,0,0,1)"><a href="https://www.jcad.cn/jcadcms/show.action?code=publish_402880124b362464014b3c4d819803a1&newsid=34511b3c4cd346f5a1aa94fe1a9a553e">[Link]</a></span></span><span style="color: rgb(204, 51, 204);">
+                                                        </br>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+
+                                            <div class="card mb-0 border-top-0 border-right-0 border-left-0 pb-0 rounded-0">
+                                                <div class="row no-gutters  ">
+                                                    <div class="col-md-6">
+                                                        </br>
+                                                        <img src="sweeping teaser.png" class="card-img" alt="...">
+                                                    </div>
+                                                    <div class="col-md-6 ">
+                                                        
+                                                        <div class="card-body border-0  my-0  py-2">
+                                                            <h5 class="card-title mt-0">
+                                                                </br>
+                                                                Ceramic 3D Printed Sweeping Surfaces
+
+                                                            </h5>
+
+                                                            <a href="" target="_blank"><b>Fanchao Zhong</b></a>,
+                                                            <sup></sup>
+                                                            Wenqiang Liu,
+                                                            <sup></sup>
+                                                            Yu Zhou,
+                                                            <sup></sup>
+                                                            <a href="https://www.researchgate.net/profile/Xin-Yan-13" target="_blank">Xin Yan</a>,
+                                                            <sup></sup>
+                                                            <a href="http://irc.cs.sdu.edu.cn/~lulin/index.html" target="_blank">Lin Lu*</a>
+                                                            <sup></sup>
+
+                                                            </br>Computers & Graphics, 2020</br>
+                                                            <a target="_blank" rel="noopener" href="ACAP page/acap.html" class="card-link"><i class="" aria-hidden="true"></i> [Project Page]</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+
+
+                                </section>
+                                </br>
+                                </br>
+                                </br>
+                                </br>
+                                </br></br></br></br>
+                            </div>
+
+                        </div>
                     </div>
-                    </td>
-                    </tr>
 
-                    <!--lofting-->
-                    </tr>
-                    <tr>
-                        <td colspan="2" style="text-align: center; vertical-align: middle;"><hr noshade="noshade"></td>
-                    </tr>
-                    <tr>
-                        <td style="text-align: center; vertical-align: middle;">
-                            <img alt="loft teaser.png" src="loft teaser.png" height="" width="400"><br>
-                        </td>
-                        <td style="text-align: justify; vertical-align: top;" class="auto-style6">
-                            <div style="color:SlateBlue;">
-                                <b>Two-Scale Lofted Surfaces Modeling for Ceramic 3D Printing</b>
-                                <span style="color: rgba(0,0,0,1)">[<a href="https://www.jcad.cn/jcadcms/show.action?code=publish_402880124b362464014b3c4d819803a1&newsid=34511b3c4cd346f5a1aa94fe1a9a553e">Link</a>]</span></span><span style="color: rgb(204, 51, 204);">
-                                </span><span style="color: rgb(204, 51, 204);">
-                            </div>
-                            Yu Zhou,
-                            <sup></sup>
-                            Wenqiang Liu,
-                            <sup></sup>
-                            <a href="" target="_blank"><b>Fanchao Zhong</b></a>,
-                            <sup></sup>
-                            <a href="https://www.researchgate.net/profile/Xin-Yan-13" target="_blank">Xin Yan</a>,
-                            <sup></sup>
-                            <a href="http://irc.cs.sdu.edu.cn/~lulin/index.html" target="_blank">Lin Lu*</a>
-                            <sup></sup>
-                            <br>
-                            </span>
-                            Journal of Computer-Aided Design & Computer Graphics (in Chinese), 2021 <br>
-                            <br>
-                            </span>
-                    </div>
-                    </td>
-                    </tr>
+                </div>
+            </div>
+            <!-- JS, Popper.js, and jQuery -->
+            <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-                    <!--sweeping-->
-                    </tr>
-                    <tr>
-                        <td colspan="2" style="text-align: center; vertical-align: middle;"><hr noshade="noshade"></td>
-                    </tr>
-                    <tr>
-                        <td style="text-align: center; vertical-align: middle;">
-                            <img alt="sweeping teaser.png" src="sweeping teaser.png" height="" width="400"><br>
-                        </td>
-                        <td style="text-align: justify; vertical-align: top;" class="auto-style6">
-                            <div style="color:SlateBlue;">
-                                <b>Ceramic 3D Printed Sweeping Surfaces</b>
-                                <span style="color: rgba(0,0,0,1)">[<a href="http://irc.cs.sdu.edu.cn/sweeping/index.html">Project Page</a>]</span></span><span style="color: rgb(204, 51, 204);">
-                                    <span style="color: rgba(0,0,0,1)">[<a href="https://www.youtube.com/watch?v=d_JXYEt8Jko&feature=youtu.be">Talk</a>]</span>
-                                </span><span style="color: rgb(204, 51, 204);">
-                            </div>
+            <script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js "></script>
 
-                            <a href="" target="_blank"><b>Fanchao Zhong</b></a>,
-                            <sup></sup>
-                            Wenqiang Liu,
-                            <sup></sup>
-                            Yu Zhou,
-                            <sup></sup>
-                            <a href="https://www.researchgate.net/profile/Xin-Yan-13" target="_blank">Xin Yan</a>,
-                            <sup></sup>
-                            <a href="http://irc.cs.sdu.edu.cn/~lulin/index.html" target="_blank">Lin Lu*</a>
-                            <sup></sup>
-                            <br>
-                            </span>
-                            Computers & Graphics, 2020 <br>
-                            <br>
-                            </span>
-                    </div>
-                    </td>
-                    </tr>
-        
+            <script src="https://cdn.jsdelivr.net/npm/jquery-pjax@latest/jquery.pjax.min.js "></script>
 
+            <!--
+            <script src="/js/....js"></script>
+             -->
 
-        <!--An algorithm for visibility computation of points based on Voronoi diagrams -->
-
-
-        <tr>
-            <td colspan="2" style="text-align: center; vertical-align: middle;"><hr noshade="noshade"></td>
-        </tr>
-
-        </tbody>
-        </table>
-
-
-    </div>
-    </div>
-
-
+</body>
+</html>
